@@ -1,4 +1,4 @@
-module.exports = function cssHasPseudo (document) {
+module.exports = function cssHasPseudo () {
   const observedItems = [];
 
   // document.createAttribute() doesn't support `:` in the name. innerHTML does
